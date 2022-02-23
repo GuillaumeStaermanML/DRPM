@@ -37,6 +37,7 @@ Here is a toy example (also available at demo.ipynb)
 .. code:: python
 
   >>> import numpy as np
+  >>> import DRPM as DRPM
   
   >>> n_samples = 1000
   >>> n_features = 10
