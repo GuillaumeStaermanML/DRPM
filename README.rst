@@ -32,7 +32,7 @@ Some parameters may be eventually set by the user:
 Quick Start :
 ------------
 
-Create toy training and testing datasets:
+Here is a toy example (also available at demo.ipynb)
 
 .. code:: python
 
