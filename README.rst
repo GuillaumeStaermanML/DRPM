@@ -2,7 +2,7 @@
 =========================================
 
 
-This repository hosts Python code of the Depth-trimmed Regions based Pseudo-Metric (DRPM) introduced in https://arxiv.org/pdf/2103.12711.
+This repository hosts Python code of the Depth-trimmed Regions based Pseudo-Metric (DRPM) introduced in https://arxiv.org/pdf/2103.12711. If one want the code to be able to reproduce experiments in the paper, send me an email.
 
 Algorithm
 ---------
