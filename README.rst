@@ -22,7 +22,7 @@ Some parameters may be eventually set by the user:
                                 - data_depth: str in {'tukey', 'projection', 'irw', 'ai_irw'}, default='irw'
 
                                 - eps_min: float in [0,eps_max], default=0
-                                    the lowest level set
+                                    the lowest level set.
 
                                 - eps_max: float in [eps_min,1], default=1
                                     the highest level set.
