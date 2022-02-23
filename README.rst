@@ -50,4 +50,22 @@ Create toy training and testing datasets:
   >>> distance = DRPM(X, Y, eps_min=eps, n_alpha=n_alpha, n_dirs=n_proj, data_depth=chosen_depth) # use the algorithm
   >>> print(distance)
                                                                
+Dependencies
+------------
 
+These are the dependencies to use FIF:
+
+* numpy 
+* sklearn
+
+Cite
+----
+
+If you use this code in your project, please cite::
+
+@article{staerman2021pseudo,
+  title={A Pseudo-Metric between Probability Distributions based on Depth-Trimmed Regions},
+  author={Staerman, Guillaume and Mozharovskyi, Pavlo and Cl{\'e}men{\c{c}}on, St{\'e}phan and d'Alch{\'e}-Buc, Florence},
+  journal={arXiv preprint arXiv:2103.12711},
+  year={2021}
+}
