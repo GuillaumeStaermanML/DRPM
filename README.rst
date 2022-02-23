@@ -55,7 +55,7 @@ Here is a toy example (also available at demo.ipynb)
 Dependencies
 ------------
 
-These are the dependencies to use FIF:
+These are the dependencies to use DRPM:
 
 * numpy 
 * sklearn
