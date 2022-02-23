@@ -70,4 +70,4 @@ If you use this code in your project, please cite::
   author={Staerman, Guillaume and Mozharovskyi, Pavlo and Cl{\'e}men{\c{c}}on, St{\'e}phan and d'Alch{\'e}-Buc, Florence},
   journal={arXiv preprint arXiv:2103.12711},
   year={2021}
-}
+  }
