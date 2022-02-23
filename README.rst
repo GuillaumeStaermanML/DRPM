@@ -1,4 +1,4 @@
-# DRPM: Depth-trimmed Regions based Pseudo-Metric between probability distributions.
+DRPM: Depth-trimmed Regions based Pseudo-Metric between probability distributions.
 =========================================
 
 
