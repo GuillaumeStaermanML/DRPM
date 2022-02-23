@@ -65,7 +65,7 @@ Cite
 
 If you use this code in your project, please cite::
 
-@article{staerman2021pseudo,
+  @article{staerman2021pseudo,
   title={A Pseudo-Metric between Probability Distributions based on Depth-Trimmed Regions},
   author={Staerman, Guillaume and Mozharovskyi, Pavlo and Cl{\'e}men{\c{c}}on, St{\'e}phan and d'Alch{\'e}-Buc, Florence},
   journal={arXiv preprint arXiv:2103.12711},
