@@ -2,11 +2,10 @@
 #
 # License: MIT
 
+import numpy as np
 from sklearn.preprocessing import normalize
 from sklearn.covariance import MinCovDet as MCD
 from sklearn.decomposition import PCA
-import numpy as np
-
 
 ########################################################
 #################### Some useful functions ########################
@@ -26,7 +25,6 @@ def cov_matrix(X, robust=False):
 def standardize(X, robust=False):
     """ Compute the square inverse of the covariance matrix of X.
     """
-
     sigma = cov_matrix(X, robust)
     n_samples, n_features = X.shape
     rank = np.linalg.matrix_rank(sigma)
@@ -44,7 +42,6 @@ def standardize(X, robust=False):
 
     return X_transf@square_inv_matrix
 
-
 ########################################################
 #################### Sampled distributions ########################
 ######################################################## 
@@ -53,7 +50,6 @@ def sampled_sphere(n_dirs, d):
     """ Produce ndirs samples of d-dimensional uniform distribution on the 
         unit sphere
     """
-
     mean = np.zeros(d)
     identity = np.identity(d)
     U = np.random.multivariate_normal(mean=mean, cov=identity, size=n_dirs)

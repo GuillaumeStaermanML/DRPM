@@ -3,11 +3,12 @@
 # License: MIT
 
 import numpy as np
+
 from utils import  sampled_sphere
 from depths import tukey_depth, projection_depth, ai_irw_depth
 
 def DRPM(X, Y, n_alpha=10, data_depth='irw', eps_min=0,
-                eps_max=1, p=2, n_dirs=None, random_state=None):
+         eps_max=1, p=2, n_dirs=None, random_state=None):
     """The Deph-trimmed Regions based Pseudo-Metric (DRPM) 
        between two probability distributions.
 

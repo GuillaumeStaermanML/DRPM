@@ -2,12 +2,9 @@
 #
 # License: MIT
 
-
-
 import numpy as np
-from utils import cov_matrix, standardize, sampled_sphere
 
-
+from utils import standardize, sampled_sphere
 
 ########################################################
 #################### Data Depths ########################
@@ -58,6 +55,7 @@ def tukey_depth(X, n_dirs=None):
 
     return tukey_score
 
+
 def projection_depth(X, n_dirs=None):
     """ Compute the score of the projection depth of X w.r.t. X
 
@@ -103,6 +101,7 @@ def projection_depth(X, n_dirs=None):
     projection_score = 1 / (1 + outlyingness) 
 
     return projection_score
+
 
 def ai_irw_depth(X,  AI=True, robust=False, n_dirs=None, random_state=None):
     """ Compute the score of the (Affine-Invariant-) Integrated Rank 
